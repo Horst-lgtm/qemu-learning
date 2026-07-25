@@ -1,5 +1,7 @@
 # QEMU × Firecracker 底层学习实验室
 
+**[在线阅读（GitBook）](https://horst.gitbook.io/horst-docs)**
+
 通过对照拆解 QEMU 与 Firecracker，系统学习虚拟机启动、CPU 虚拟化、内存、设备、中断、I/O 和安全边界。
 
 QEMU 是通用机器模拟器与虚拟化器：既能通过 TCG 做跨架构指令翻译，也能通过 KVM 等加速器运行硬件虚拟化 guest。Firecracker 是面向 microVM 的 Linux/KVM 虚拟机监控器（VMM），不是“纯模拟器”；它用 Rust 实现精简设备模型，主动缩小功能面与攻击面。
