@@ -1,0 +1,28 @@
+# QEMU 源码（作为阅读对象，单独 clone，不纳入本仓库）
+/qemu/
+/firecracker/
+
+# 构建产物
+build/
+_book/
+*.o
+*.a
+*.so
+*.exe
+*.img
+*.qcow2
+node_modules/
+
+# 编辑器 / 系统
+.DS_Store
+.vscode/
+*.swp
+
+# 本地密钥 / token，切勿提交（GitBook API、Git 同步凭据等）
+gittoken
+*.token
+*.tokens
+.env
+.env.*
+!.env.example
+.gitbook-token

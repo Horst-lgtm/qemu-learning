@@ -1,0 +1,9 @@
+{
+  "name": "qemu-learning",
+  "private": true,
+  "description": "QEMU × Firecracker 学习笔记（GitBook / HonKit 友好结构）",
+  "scripts": {
+    "serve": "npx --yes honkit serve .",
+    "build": "npx --yes honkit build ."
+  }
+}

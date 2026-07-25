@@ -1,0 +1,12 @@
+{
+  "title": "QEMU × Firecracker 底层学习实验室",
+  "description": "通过对照拆解 QEMU 与 Firecracker，系统学习虚拟机启动、CPU、内存、设备、中断、I/O 与安全边界。",
+  "author": "qemu-learning",
+  "language": "zh-hans",
+  "root": ".",
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md"
+  },
+  "plugins": []
+}
